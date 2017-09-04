@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id ="label" >your password shoul conatin at lrast 6 charcter and number and capital Letter : </div>
+        <input type="password" id="password">
+        <button onclick="check()" > check </button>
+        <p style="font-size: 30px;color: red" id="error" ></p>
+
+        <script>
+            function check() {
+
+                var pass = document.getElementById("password").value;
+                document.getElementById("error").innerHTML = "";
+                console.log(pass);
+                try {
+                    if (pass.length < 6) {
+                        document.getElementById("error").innerHTML += "too short ";
+                    }
+                    if(/[A-Z]/g.test(pass)===false){
+                        document.getElementById("error").innerHTML += "capital ";
+                    }
+                    if(/\d/g.test(pass)===false){
+                        document.getElementById("error").innerHTML += "number ";
+                    }
+
+                } catch (err) {
+                    document.getElementById("test").innerHTML = err.message;
+                }
+            }
+            ;
+
+        </script>
+    </body>
+</html>
