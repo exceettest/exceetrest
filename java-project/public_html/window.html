@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #div1{background-color: #31af37;}
+            #div2{background-color: cornflowerblue;}
+            #div3{background-color: cadetblue;}
+            #div4{background-color: darkorange;}
+            #div5{background-color: antiquewhite;}
+            .box{float: left;
+                 margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="div1" class="box" >div1</div>
+        <div id="div2" class="box" >div2</div>
+        <div id="div3"  class="box">div3</div>
+        <div id="div4" class="box" >div4</div>
+        <div id="div5" class="box" >div5</div>
+        
+        <script>
+//            alert(window.screen.width)
+//            alert(window.innerHeight);
+//            alert(window.screen.availHeight);
+            var width=window.innerWidth;
+            var height=window.innerHeight;
+            document.getElementById("div1").style.width=width/6+"px";
+            document.getElementById("div2").style.width=width/6+"px";
+            document.getElementById("div3").style.width=width/6+"px";
+            document.getElementById("div4").style.width=width/6+"px";
+            document.getElementById("div5").style.width=width/6+"px";
+            document.getElementById("div1").style.height=height -10 +"px";
+            document.getElementById("div2").style.height=height-10+"px";
+            document.getElementById("div3").style.height=height-10+"px";
+            document.getElementById("div4").style.height=height-10+"px";
+            document.getElementById("div5").style.height=height-10+"px";
+        </script>
+    </body>
+</html>

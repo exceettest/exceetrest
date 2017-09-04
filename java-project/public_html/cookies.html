@@ -11,14 +11,17 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <p id="counter">0</p>
-        <button id="stop" onclick="clearInterval(mycounter)" >Stop</button>
-        <button id="stop2" onclick="clearTimeout(delay)" >clear</button>
+        <div id="div">TODO write content</div>
         <script>
-            var x=0;
-            var counter =document.getElementById("counter");
-            var mycounter=setInterval(function(){x++;counter.innerHTML=x;},1000);
-            var delay=setTimeout( function (){ alert("hallo")},3000);
+//            document.cookie="useername=sam";
+//            document.cookie="age =33";
+//            document.cookie="country=spain ";
+//            alert(document.cookie);
+            var cookie=document.cookie.split(';');
+//            alert(cookie);
+            for (var i = 0; i < cookie.length; i++) {
+                document.getElementById("div").innerHTML+="<br />"+cookie[i]
+}
         </script>
     </body>
 </html>
