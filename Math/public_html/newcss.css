@@ -1,0 +1,160 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31.08.2017, 11:40:01
+    Author     : gsabbagh@authentidate.local
+*/
+#body{
+    width: 85%;
+     margin-left: 7.5%;
+     /*height: 200px;*/
+}
+#Header{
+/*    border: 3px red dotted;*/
+    width: 100%;
+    height: 100px;
+}
+#k{
+    width: 50%;
+    /*text-align: center;*/
+    margin-top: 0px;
+    float: left;
+    color: red;
+    
+}
+#k a{
+    font-style: normal;
+    color: #861BBF;
+    text-decoration: none;
+    font-size: 40px;
+    color: red;
+}
+#search{
+    float: right;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    width: 400px;
+    height: 50px;
+    margin-top: 25px;
+}
+.textclassbox{
+    float: left;
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    color: orange;
+    margin:9px;
+    margin-left: 20px;
+    background: white url(search.png) right center no-repeat;
+    border: 1px solid #C8D03E;
+}
+#buttonsubmit
+{
+    float: right;
+    margin:  8px;
+    margin-right: 20px;
+    width: auto;
+    height: 28px;
+    font-weight: bold;
+    color: white;
+    background: #a751d6;
+    font-size: 20px;
+}
+.clear{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+#menu{
+    background: linear-gradient(#F8F594,#D5D533);
+    height: 70px;
+    width: 100%;
+    padding-top: 4px;
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: font-size ease  0.5s;
+}
+#menu ul li a:hover{
+    font-size: 35px;
+}
+#menu ul li{
+    float: left;
+    border-right: 1px black solid;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: 30px;
+    color: black;
+}
+.intro{
+    background: linear-gradient(#E5F2BB, #b7E952);
+    height: 300px;
+    font-size: 25px;
+    padding: 30px;
+    margin-top:15px; 
+    color: #316901;
+    font-weight: normal;
+}
+.intro h2{
+    font-weight: normal;
+    font-size: 40px;
+}
+.lists{
+    margin-top: 10px;
+    /*width: auto;*/
+    height: 500px;
+    list-style: none;
+}
+.lists li:hover{
+    font-size: 37px;
+}
+.leftlist{
+    width: 47%;
+    height: 500px;
+    float: left;
+    border: 3px #B7E953 solid;
+    border-radius: 20px;
+    font-size: 27px;
+    padding-left: 10px;
+    text-overflow : ellipsis;
+    overflow: hidden;
+    
+}
+.lists h2{
+    font-weight: normal;
+    color: #a751d6;
+}
+.rightlist{
+    width: 47%;
+    height: 500px;
+    float: right;
+    border: 3px #B7E953 solid;
+    border-radius: 20px;
+    font-size: 25px;
+    /*padding: 30px;*/
+    padding-left: 30px;
+}
+.rightlist li{
+    margin-bottom: 20px;
+    background: url(2.png) left center no-repeat;
+    padding-left: 70px;
+}
+.leftlist li{
+    margin-bottom: 15px;
+    background: url(1.png) left center no-repeat;
+    padding-left: 70px;
+}
+.footer{
+    height: 60px;
+    background: linear-gradient(#F6F390,#D5D533);
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    padding: 5px 0 5px 20px;
+}
+
+

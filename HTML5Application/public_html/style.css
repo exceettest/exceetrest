@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29.08.2017, 13:20:26
+    Author     : gsabbagh@authentidate.local
+*/
+
+p{
+    margin: 10px;
+}
+.face
+{
+        background-color: blue;
+        height: 120px;
+        color: white;
+        width: auto;
+        overflow: hidden;
+        white-space: nowrap;
+         text-overflow: ellipsis;
+
+}
+.face:hover{
+    white-space: normal;
+    z-index: 10;
+    height: auto;
+    border-radius: 25px;
+    padding: 35px;
+}
+.app{
+    background-color: yellow;
+    height: 100px;
+
+}
+.mic{
+    background-color: green;
+    height: 100px;
+    width: auto;
+}
+

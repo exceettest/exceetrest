@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="get" >
+            <label for="adress">Adress : <input id="adress" type="text" name="adress" placeholder="adress" ></label>
+            <label for="postcode">postcode : </label><input id="postcode" type="number" name="postcode" placeholder="postcode">
+            <label for="city">city : </label><input id="city" type="number" name="city" placeholder="city">
+            <p>Please chose your shipping method : </p>
+            <select id="shipping" name="shipping">
+                <option value="free">free shipping</option>
+                <option value="2"> 2 day shipping</option>
+                <option value="1"> 1 day shipping</option>
+            </select>
+            <p>Please chose your payment method : </p>
+            <label>
+                <input type="radio" name="payment" value="pay">&nbsp;paypal
+            </label>
+            <label>
+                <input type="radio" name="payment" value="debit">&nbsp;debit
+            </label>
+            <p>any comment?: </p>
+            <textarea placeholder="Comments" rows="6" cols="50" ></textarea><br>
+            <label for="nm">
+                <input type="checkbox" checked="checked" name="nm" id="nm">&nbsp;Email update</label>
+            <br><br>
+            <input type="submit" value="buy">
+        </form>
+    </body>
+</html>
