@@ -13,21 +13,25 @@ and open the template in the editor.
     </head>
     <body>
         <div id="mainbox">
-            <div id="score">Score : 3</div>
+            <div id="score">Score : <span id="scoo">3</span> </div>
             <div id="none" class="seclct" >Correct</div>
             <div class="clear"></div>
             <div id="question"></div>
             <div id="dontknow">I don't Know</div>
             <div id="sugg">
-                <div class="sugg">24</div>
+                <div class="sugg"></div>
                 <div class="sugg"></div>
                 <div class="sugg"></div>
                 <div class="sugg"></div>
             </div>
             <div id="foot">
-                <div id="foot1">Resst Game</div>
+                <div id="foot1" onclick="start()" >Resst Game</div>
                 <div id="foot2">Countdown : <span id="sec"> 60</span> s</div>
             </div>
+            <div id='Game'>
+                <p id='Gamep'>Game over!<br/>Your score is <span id="gamescore">0</span></p>
+            </div>
         </div>
+                <script src="mathscript.js" type="text/javascript"></script>
     </body>
 </html>
