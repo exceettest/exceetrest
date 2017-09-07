@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <style>
+            #hi{
+                height: 200px;
+                width: 500px;
+                background-color: greenyellow;
+                /*display: none;*/
+            }
+            #hi2{
+                height: 200px;
+                width: 500px;
+                background-color: red;
+            }
+            #hi3{
+                height: 200px;
+                width: 500px;
+                background-color: blue;
+                /*display: none;*/
+            }
+            #hi4{
+                height: 400px;
+                width: 500px;
+                background-color: bisque;
+                color:black;
+                display: none;
+            }
+            .ttt
+            {
+                border: 3px double red;
+                position: absolute;
+            }
+            /*            li{
+                            text-align: center;
+                            font-size: 2em;
+                            margin-bottom: 10px;
+                            background:linear-gradient(yellow , white);
+                        }
+                        ul{
+                            padding-top: 30px;
+                            list-style: none;
+                            padding-right: 20px;
+                        }*/
+            .ui-menu{
+                width: 100px;
+            }
+            #list .ui-selecting{
+                background: black;
+                color: white;
+            }
+            #list .ui-selected{
+                background: yellow;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="prog"></div>
+        <button id="b">run</button>
+        <!--        <div id="hi"></div>
+                <div id="hi2">
+                    <ul id="list" >
+                        <li class="ui-state-default test">eggs</li>
+                        <li class="ui-state-default">milk</li>
+                        <li class="ui-state-default">bread</li>
+                    </ul>
+                </div>
+                <div id="hi3"></div>
+                <div id="hi4"></div>
+                <button id="but">chane it</button>
+                <button id="but2">toggle it</button>
+                <button id="but3">anime it</button>-->
+        <!--        <div id="h" class=".ui-widget-content" >
+                <div id="t" >
+                <h3>Section 1</h3><div><p>content 1</p><p>content 1</p><p>content 1</p><p>content 1</p></div>
+                <h3>Section 2</h3><div><p>content 1</p></div>
+                <h3>Section 3</h3><div><p>content 1</p></div>
+                </div></div>-->
+
+        <script>
+//            $("#b").click(function () {
+//                window.setInterval(function () {
+//                    alert();
+//                    $("#prog").progressbar({
+//                        value: 25
+//                    });
+//                },1000);
+//            });
+            //            $("#hi").load("newfile.txt #tt");
+            //            $("#but3").click(function(){
+            //                $.ajax({url:"newfile.txt"
+            //                    ,success: function(data){
+            //                        $("#hi").html(data);
+            //                    }
+            //                });
+            //            });
+            //            $("#but3").click(function () {
+            //                $.ajax({url: "newfile.txt"}).done(function (somedata) {
+            //                    $("#hi").html(somedata);
+            //                });
+            //            });
+            //            $("#hi").draggable({axis: "x"});
+            //            $("#hi2").draggable({axis: "y", revert: true});
+            //            $("#hi3").draggable({start:function(){$("#hi2").css("background-color","black");}});
+            //            $("#hii").find("li").draggable({helper:"clone"});
+            //            $("#hi4").droppable({drop:function(event,ui){$(this).css("background-color","yellow");
+            //                    $("<p></p>").text(ui.draggable.text()).appendTo(this);
+            //                },accept:"#hi2 li"});
+            //                try{
+            //                $("#hi").resizable({
+            //          maxHeight: 200,
+            //          minHeight: 50,
+            //          minWidth: 100,
+            //          maxWidth: 500});
+            //
+            //                }
+            //                catch(err)
+            //                {
+            //                    alert(err);
+            //                }
+            //            var data = "";
+            //            $("#list").selectable({stop: function(){
+            //            $(".ui-selected").each(function(){data+="<p>"+($(this).text())+"</p>";
+            //            $("#hi4").html(data);});}});
+            //            $("#list").sortable({placeholder : "ui-state-highlight",cancel:".test"});
+//                $("#t").accordion({collapsible:true,icons:{
+//                        header:"ui-icon-circle-arrow-e"
+//                        ,activeHeader:"ui-icon-circle-arrow-s"},heightStyle:"fill"});
+//                $("#h").resizable();
+//$("button").each(function(){
+//    $(this).button();
+//});
+//$("#b3").button({
+//    icons:{
+//        primary:"ui-icon-folder-open"
+//    },text:false
+//});
+//$("#b1").click(function(){$("#di").dialog("open");});
+//$("#di").dialog({autoOpen:false});
+
+            $("#continents").menu();
+        </script>
+    </body>
+</html>
